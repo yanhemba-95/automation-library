@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.13.2 - 2026-11-13
+
+### Fixed
+
+- Fix the module configuration with a missing field
+
+## 1.13.1 - 2026-11-12
+
+### Changed
+
+- Upgrade AWS dependency
+
 ## 1.13.0 - 2026-11-12
 
 ### Changed
