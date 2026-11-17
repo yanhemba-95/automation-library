@@ -3,7 +3,7 @@ name = "automation-module-urlscan"
 version = "0.0"
 description = ""
 authors = []
-requires-python = ">=3.14,<4"
+requires-python = ">=3.12,<4"
 dependencies = [
     "sekoia-automation-sdk>=1.27.0,<2",
     "urlscan-python==2026.8.18",
