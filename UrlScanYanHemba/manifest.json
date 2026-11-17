@@ -27,7 +27,7 @@
   "description": "urlscan.io is a sandbox for the web. It visits submitted URLs in an automated browser, records the domains, IPs, requests and files involved, takes a screenshot, gives a verdict and indexes every scan for search.",
   "name": "urlscan.ioYanHemba",
   "uuid": "a6a2dd21-ceab-4450-a3bc-99d1669f2e18",
-  "slug": "urlscanYanHemba",
+  "slug": "urlscanyanhemba",
   "version": "1.0.0",
   "categories": [
     "Threat Intelligence"
