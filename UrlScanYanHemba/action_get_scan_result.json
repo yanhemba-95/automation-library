@@ -1,5 +1,5 @@
 {
-  "uuid": "9e9c7da3-6134-4e05-9f9f-42119215d0ac",
+  "uuid": "a6a27da3-6134-4e05-9f9f-42119215d0ac",
   "name": "Get scan result",
   "description": "Return the summary of an existing urlscan.io scan: verdict, final page, contacted infrastructure, links and a ready-to-post Markdown comment.",
   "docker_parameters": "urlscan_get_scan_result",
