@@ -28,7 +28,7 @@ default-groups = ["dev", "lint"]
 
 [tool.ruff]
 line-length = 119
-target-version = "py314"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["A", "ARG", "E", "F", "I", "N", "RUF", "UP", "W"]
@@ -38,7 +38,7 @@ select = ["A", "ARG", "E", "F", "I", "N", "RUF", "UP", "W"]
 "test_end_to_end/*" = ["ARG"]
 
 [tool.mypy]
-python_version = "3.14"
+python_version = "3.12"
 install_types = true
 non_interactive = true
 ignore_missing_imports = true

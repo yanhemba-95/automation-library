@@ -93,7 +93,7 @@ def _is_invisible(char: str) -> bool:
 def _inet_aton_accepts(host: str) -> bool:
     try:
         socket.inet_aton(host)
-    except OSError, ValueError:
+    except (OSError, ValueError):
         return False
     return True
 

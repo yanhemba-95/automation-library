@@ -21,7 +21,7 @@ def is_stored(fetch: Callable[[str], Any], scan_id: str) -> tuple[bool | None, i
         fetch(scan_id)
     except APIError as error:
         return (False, 404) if error.status == 404 else (None, error.status)
-    except httpx.TransportError, KeyError:
+    except (httpx.TransportError, KeyError):
         # The SDK reads error["message"]: an error body without it raises KeyError.
         return None, None
     return True, None
